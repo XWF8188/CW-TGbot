@@ -9,18 +9,18 @@
 2. 部署后，通过 Pages 提供的域名访问即可（如设置域名 CNAME 到 Pages）。
 
 ## ⚠️ 使用说明
-- 本示例假设域名为：`api.tg.090227.xyz`
+- 本示例假设域名为：`api.tg.******.dev`
 - 使用反代 TG API 示例：  
-  `https://api.tg.090227.xyz/bot${BotToken}/sendMessage?chat_id=${ChatID}&parse_mode=HTML&text=test`
+  `https://api.tg.******.dev/bot${BotToken}/sendMessage?chat_id=${ChatID}&parse_mode=HTML&text=test`
 - 如已在环境变量中设置 **TGTOKEN**，可直接调用内置通知机器人：  
-  `https://api.tg.090227.xyz/sendMessage?chat_id=${ChatID}&parse_mode=HTML&text=test`
+  `https://api.tg.******.dev/sendMessage?chat_id=${ChatID}&parse_mode=HTML&text=test`
 - 首次部署后，需访问以下链接对进行通知机器人初始化：  
-  `https://api.tg.090227.xyz/${TGTOKEN}`
+  `https://api.tg.******.dev/${TGTOKEN}`
 
 ## 📋 变量说明
-| 变量名 | 示例 | 备注 | 
+| 变量名 | 示例 | 备注 |
 |-|-|-|
-| TGTOKEN | `6894123456:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA` | TG机器人token | 
+| TGTOKEN | `1234567890:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA` | TG机器人token | 
 
 # 🙏 致谢
-GPT
+## https://t.me/CMLiussss
